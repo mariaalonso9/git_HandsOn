@@ -29,4 +29,4 @@ if args.motif:
     if re.search(args.motif, args.seq):
         print("Motif found!")
     else:
-        print("NOT FOUND")
+	print("Motif not found :(")
